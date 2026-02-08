@@ -29,3 +29,4 @@ reset if desired.
 ## future improvements:
 
 - move radio buttons above canvas for better UX
+- add keystroke event so that form submits upon enter
