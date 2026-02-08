@@ -12,7 +12,7 @@ https://stellar-drift.github.io/particle-party/
 
 ## how to?
 
-simply enter your name and press the button! 
+enter your name and press the button! 
 you can choose from five canvas colors :)
 reset if desired.
 
