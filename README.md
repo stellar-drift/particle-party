@@ -4,13 +4,13 @@ simple javascript site built for a class. showcases event handling, objects, DOM
 
 
 
-# demo:
+## demo:
 
 https://stellar-drift.github.io/particle-party/
 
 
 
-# how to?
+## how to?
 
 simply enter your name and press the button! 
 you can choose from five canvas colors :)
@@ -18,7 +18,7 @@ reset if desired.
 
 
 
-# built with:
+## built with:
 
 - html
 - css
@@ -26,6 +26,6 @@ reset if desired.
 
 
 
-# future improvements:
+## future improvements:
 
 - move radio buttons above canvas for better UX
