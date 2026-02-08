@@ -1,0 +1,104 @@
+/*
+Allison R.
+Week of December 8, 2025
+style.css
+*/
+
+
+
+body {
+	margin: 24px;
+	padding: 0;
+	font-family: "Lucida Console", "Courier New", monospace;
+	background-color: #f0efe6; 
+	min-height: 100vh;	/* full viewport height */
+	cursor: url('dotCursor_nounProject.png'), auto;
+}
+
+
+.container {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	color: #003e6e;
+}
+
+
+form[name="hello"] {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;	/* space between input and button */
+}
+
+
+form[name="canvasColor"] {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 44px;
+}
+
+
+.radioOption {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+
+input[type="text"] {
+	padding: 8px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+
+input::placeholder {
+	font-family: "Lucida Console", "Courier New", monospace;
+	color: #777;
+}
+
+
+button {
+	padding: 8px 12px;
+	font-size: 16px;
+	border: none;
+	border-radius: 4px;
+	background-color: #3498db;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-weight: bold;
+	color: #f0efe6;
+}
+
+
+button:hover {
+	background-color: #2980b9;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+#textBox {
+	position: absolute;
+}
+
+
+#mainCanvas {
+	border-radius: 12px;
+}
+
+
+#canvasWrapper {
+	display: flex;
+	justify-content: center;
+	margin: 42px 12px 42px;
+}
+
+
+.radioStyle {
+	color: #003e6e;
+	font-weight: bold;
+}
